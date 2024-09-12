@@ -106,14 +106,17 @@
    * Init typed.js
    */
   const selectTyped = document.querySelector('.typed');
-  let typed_strings;
+   
+  let typed_strings = [];
   if (selectTyped) {
-    typed_strings = selectTyped.getAttribute('data-typed-items');
-    typed_strings = typed_strings.split(',');
+    const dataTypedItems = selectTyped.getAttribute('data-typed-items');
+    if (dataTypedItems) {
+      typed_strings = dataTypedItems.split(',');
+    }
   }
   
   new Typed('.typed', {
-    strings: typed_strings || [],
+    strings: typed_strings,
     loop: true,
     typeSpeed: 100,
     backSpeed: 50,
