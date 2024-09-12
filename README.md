@@ -3,7 +3,7 @@ Repository ini berisi source code dari website portofolio pribadi saya.
 
 Tools, software, dan bahasa yang digunakan :
 HTML,
-CSS
+CSS,
 JavaScript,
 Bootsrap,
 GitHub,
