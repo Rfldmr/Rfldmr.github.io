@@ -1,4 +1,4 @@
-# Simple Web Auto-Login Bot With Selenium
+# Rafli Damara Portfolio Website
 Auto-login bot ini memungkinkan kamu melakukan login ke suatu website secara otomatis tanpa perlu membuka website secara manual. 
 
 Tools, software, dan bahasa yang digunakan :
