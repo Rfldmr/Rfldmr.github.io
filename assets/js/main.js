@@ -108,27 +108,6 @@
   new PureCounter();
 
   /**
-   * Init typed.js
-   */
-  const selectTyped = document.querySelector('.typed');
-   console.log(selectTyped)
-  let typed_strings = [];
-  if (selectTyped) {
-    const dataTypedItems = selectTyped.getAttribute('data-typed-items');
-    if (dataTypedItems) {
-      typed_strings = dataTypedItems.split(',');
-    }
-  }
-  
-  new Typed('.typed', {
-    strings: typed_strings,
-    loop: true,
-    typeSpeed: 100,
-    backSpeed: 50,
-    backDelay: 2000
-  });
-
-  /**
    * Animate the skills items on reveal
    */
   let skillsAnimation = document.querySelectorAll('.skills-animation');
@@ -202,6 +181,27 @@
       }, false);
     });
 
+  });
+
+  /**
+   * Init typed.js
+   */
+  const selectTyped = document.querySelector('.typed');
+   console.log(selectTyped)
+  let typed_strings = [];
+  if (selectTyped) {
+    const dataTypedItems = selectTyped.getAttribute('data-typed-items');
+    if (dataTypedItems) {
+      typed_strings = dataTypedItems.split(',');
+    }
+  }
+  
+  new Typed('.typed', {
+    strings: typed_strings,
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 50,
+    backDelay: 2000
   });
 
 })();
