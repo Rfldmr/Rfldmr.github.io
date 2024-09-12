@@ -102,6 +102,11 @@
   }
   window.addEventListener('load', aosInit);
 
+   /**
+   * Initiate Pure Counter
+   */
+  new PureCounter();
+
   /**
    * Init typed.js
    */
@@ -122,11 +127,6 @@
     backSpeed: 50,
     backDelay: 2000
   });
-
-  /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
 
   /**
    * Animate the skills items on reveal
