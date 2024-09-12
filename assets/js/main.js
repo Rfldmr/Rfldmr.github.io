@@ -108,7 +108,7 @@
   const selectTyped = document.querySelector('.typed');
   let typed_strings;
   if (selectTyped) {
-    let typed_strings = selectTyped.getAttribute('data-typed-items');
+    typed_strings = selectTyped.getAttribute('data-typed-items');
     typed_strings = typed_strings.split(',');
   }
   
