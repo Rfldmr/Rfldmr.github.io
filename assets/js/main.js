@@ -105,9 +105,9 @@
   /**
    * Init typed.js
    */
-  var selectTyped = document.querySelector('.typed');
+  const selectTyped = document.querySelector('.typed');
   if (selectTyped) {
-    var typed_strings = selectTyped.getAttribute('data-typed-items');
+    let typed_strings = selectTyped.getAttribute('data-typed-items');
     typed_strings = typed_strings.split(',');
   }
   
