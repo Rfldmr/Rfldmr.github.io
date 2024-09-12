@@ -1,15 +1,16 @@
 # Rafli Damara Portfolio Website
-Auto-login bot ini memungkinkan kamu melakukan login ke suatu website secara otomatis tanpa perlu membuka website secara manual. 
+Repository ini berisi source code dari website portofolio pribadi saya.
 
 Tools, software, dan bahasa yang digunakan :
-[Python](https://python.org/),
-[Selenium](https://selenium.dev/),
+[HTML](https://python.org/),
+[CSS](https://selenium.dev/),
+[JavaScript](https://selenium.dev/),
 Visual Studio Code,
-Chromedriver.
+GitHub.
 
 
 ------------
 
 
 ### Develop by: 
-> [Rafli Damara](https://github.com/Rfldmr) Refers to [bootstrapmade.com/](https://bootstrapmade.com/)
+> [Rafli Damara](https://github.com/Rfldmr) Refers to [bootstrapmade.com](https://bootstrapmade.com/)
