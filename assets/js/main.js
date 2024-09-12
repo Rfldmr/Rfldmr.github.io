@@ -106,7 +106,7 @@
    * Init typed.js
    */
   const selectTyped = document.querySelector('.typed');
-   
+   console.log(selectTyped)
   let typed_strings = [];
   if (selectTyped) {
     const dataTypedItems = selectTyped.getAttribute('data-typed-items');
